@@ -9,33 +9,23 @@ public class Position {
         this.col = col;
     }      
 
-    /**
-     * @return int return the row
-     */
+
     public int getRow() {
-        return row;
+        return this.row;
     }
 
-    /**
-     * @param row the row to set
-     */
     public void setRow(int row) {
         this.row = row;
     }
 
-    /**
-     * @return int return the col
-     */
     public int getCol() {
-        return col;
+        return this.col;
     }
 
-    /**
-     * @param col the col to set
-     */
     public void setCol(int col) {
         this.col = col;
     }
+ 
 
     @Override
     public String toString() {
